@@ -1,0 +1,38 @@
+body .footer {
+background-color: #1F2937;
+
+
+}
+
+
+.header {
+    font-size: 24px;
+    color:#F9FAF8; 
+}
+
+.thunder {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937; 
+
+}
+
+button {
+color: #3882F6;
+background-color: white;
+}
+
+.title {
+font-size: 48px;
+font-weight: bolder;
+color:#F9FAF8;
+}
+
+.secondary .right-links {
+font-size: 18px;
+color: #e5e7eb;
+
+}
+
+
