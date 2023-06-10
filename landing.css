@@ -1,13 +1,18 @@
-body .footer {
+.footer {
 background-color: #1F2937;
 
 
 }
-
+body {
+    color:#1F2937;
+    display:flex;
+    flex:1 ;
+}
 
 .header {
     font-size: 24px;
     color:#F9FAF8; 
+    background-color: #1F2937;
 }
 
 .thunder {
@@ -15,24 +20,59 @@ background-color: #1F2937;
     font-size: 36px;
     font-weight: lighter;
     color: #1F2937; 
-
+    font-style: italic;
 }
 
-button {
-color: #3882F6;
-background-color: white;
+.button  {
+background-color: #3882F6;
+color: white;
+font-size: 36px;
+font-weight: bolder;
 }
 
 .title {
 font-size: 48px;
 font-weight: bolder;
 color:#F9FAF8;
+background-color: #1F2937;
+display:flex;
+justify-content:left; 
 }
 
-.secondary .right-links {
+ul {
 font-size: 18px;
-color: #e5e7eb;
+color:#F9FAF8;
+background-color: #1F2937;
+
+}
+
+.info {
+font-size: 36px;
+font-weight: bolder;
+color: #1F2937;
+
+}
+
+ul {
+display: flex;
+flex-direction:row;
+flex-wrap: nowrap;
+justify-content: end;
+
 
 }
 
 
+.secondary {
+    color:#F9FAF8;
+    background-color: #1F2937;;
+
+
+}
+
+.bottom {
+
+    background-color: #3882F6;
+    color: white;
+
+}
